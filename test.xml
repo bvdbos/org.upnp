@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<u:SetAVTransportURI xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+			<InstanceID>0</InstanceID>
+			<CurrentURI>
+				https://cf-media.sndcdn.com/PmZ2MrCTczDe.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUG1aMk1yQ1RjekRlLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0OTE5MDM2MjJ9fX1dfQ__&amp;Signature=Y-HUCUqPVOKkVlrPfmPgYuXO~cje9g4RtpewmxLtT8aSh4~Zz7sqfRQrMSF1L0pCh7ATTV-lKnqQqk~hyKo300c1KU7i-xnMlLRcVvblR6QiydsWeZK393Yk-iKb1m5Xo~3MPOY7EH1BebrboSYYn-a77isMfdWnJDooh7ylPJR4D8~e6Rh22i9nnTUnVaW82RGd7GEaqEigNxM1rUjaNr-AXGTryjsRXNvQ5nB1eDwc2wRLeAPJUPGzS6SdbihSpkTkfi1aSpolLLhjtWoCL5ihGaE9AsLGgo6l6swX00Y9o31c8UwaaaBmCukmemUYtDouTpqRO9EGlYfjF09-CQ__&amp;Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ
+			</CurrentURI>
+			<CurrentURIMetaData>&lt;DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"&gt;&lt;item id="f-0" parentID="0"
+				restricted="0"&gt;&lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;&lt;dc:title&gt;Jonathan Jones - "Be Prepared"
+				from Disney's The Lion King&lt;/dc:title&gt;&lt;dc:creator&gt;CharacterVoice&lt;/dc:creator&gt;&lt;upnp:artist&gt;https://i1.sndcdn.com/artworks-000064123338-6m7fgm-t500x500.jpg&lt;/upnp:artist&gt;&lt;upnp:album
+				/&gt;&lt;upnp:albumArtUri /&gt;&lt;res duration="0:03:08" protocolInfo="http-get:*:audio/mpeg:*"&gt;https://cf-media.sndcdn.com/PmZ2MrCTczDe.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUG1aMk1yQ1RjekRlLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0OTE5MDM2MjJ9fX1dfQ__&amp;amp;Signature=Y-HUCUqPVOKkVlrPfmPgYuXO~cje9g4RtpewmxLtT8aSh4~Zz7sqfRQrMSF1L0pCh7ATTV-lKnqQqk~hyKo300c1KU7i-xnMlLRcVvblR6QiydsWeZK393Yk-iKb1m5Xo~3MPOY7EH1BebrboSYYn-a77isMfdWnJDooh7ylPJR4D8~e6Rh22i9nnTUnVaW82RGd7GEaqEigNxM1rUjaNr-AXGTryjsRXNvQ5nB1eDwc2wRLeAPJUPGzS6SdbihSpkTkfi1aSpolLLhjtWoCL5ihGaE9AsLGgo6l6swX00Y9o31c8UwaaaBmCukmemUYtDouTpqRO9EGlYfjF09-CQ__&amp;amp;Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ&lt;/res&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;
+			</CurrentURIMetaData>
+		</u:SetAVTransportURI>
+	</s:Body>
+</s:Envelope>
+
+<DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/">
+<item id="f-0" parentID="0"
+      restricted="0">
+	<upnp:class>object.item.audioItem.musicTrack</upnp:class>
+	<dc:title>Jonathan Jones - "Be Prepared"
+		from Disney's The Lion King
+	</dc:title>
+	<dc:creator>CharacterVoice</dc:creator>
+	<upnp:artist>https://i1.sndcdn.com/artworks-000064123338-6m7fgm-t500x500.jpg</upnp:artist>
+	<upnp:album
+	/>
+	<upnp:albumArtUri/>
+	<res duration="0:03:08" protocolInfo="http-get:*:audio/mpeg:*">
+		https://cf-media.sndcdn.com/PmZ2MrCTczDe.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUG1aMk1yQ1RjekRlLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0OTE5MDM2MjJ9fX1dfQ__&amp;Signature=Y-HUCUqPVOKkVlrPfmPgYuXO~cje9g4RtpewmxLtT8aSh4~Zz7sqfRQrMSF1L0pCh7ATTV-lKnqQqk~hyKo300c1KU7i-xnMlLRcVvblR6QiydsWeZK393Yk-iKb1m5Xo~3MPOY7EH1BebrboSYYn-a77isMfdWnJDooh7ylPJR4D8~e6Rh22i9nnTUnVaW82RGd7GEaqEigNxM1rUjaNr-AXGTryjsRXNvQ5nB1eDwc2wRLeAPJUPGzS6SdbihSpkTkfi1aSpolLLhjtWoCL5ihGaE9AsLGgo6l6swX00Y9o31c8UwaaaBmCukmemUYtDouTpqRO9EGlYfjF09-CQ__&amp;Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ
+	</res>
+</item>
+</DIDL-Lite>

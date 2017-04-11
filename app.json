@@ -1,0 +1,45 @@
+{
+	"id": "org.upnp",
+	"name": {
+		"en": "UPnP Client"
+	},
+	"version": "1.0.0",
+	"compatibility": ">=1.2",
+	"author": {
+		"name": "Bas Kiers",
+		"email": "bas@athom.nl"
+	},
+	"drivers": [
+		{
+			"id": "mediaRenderer",
+			"name": {
+				"en": "UPnP Media Player"
+			},
+			"images": {
+				"large": "/drivers/sonos/assets/images/large.png",
+				"small": "/drivers/sonos/assets/images/small.png"
+			},
+			"class": "speaker",
+			"capabilities": [
+				"speaker_playing",
+				"speaker_prev",
+				"speaker_next",
+				"volume_set",
+				"volume_mute"
+			],
+			"pair": [
+				{
+					"id": "list_devices",
+					"template": "list_devices",
+					"navigation": {
+						"next": "add_devices"
+					}
+				},
+				{
+					"id": "add_devices",
+					"template": "add_devices"
+				}
+			]
+		}
+	]
+}
